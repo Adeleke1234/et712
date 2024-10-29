@@ -1,0 +1,35 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+section {
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #ff6699;
+    border-radius: 10px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffcc00;
+}
