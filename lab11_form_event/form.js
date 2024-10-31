@@ -32,7 +32,7 @@ let  passwordform = document.querySelector("#passwordform")
 let passwordinput = document.querySelector("#password")
 
 // disable the login button
-window.addEventListener("load,"function(){
+window.addEventListener("load", function(){
     btnlogin.disabled = true
 })
 
