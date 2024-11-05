@@ -3,45 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pre-K Learning Website</title>
+    <title>Pre-K Learning Fun</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <h1>Welcome to Pre-K Learning!</h1>
-        <nav>
-            <ul>
-                <li><a href="#colors">Colors</a></li>
-                <li><a href="#numbers">Numbers</a></li>
-                <li><a href="#animals">Animals</a></li>
-                <li><a href="#shapes">Shapes</a></li>
-            </ul>
-        </nav>
+        <h1>Pre-K Learning Fun</h1>
+        <p>Learning Made Fun and Easy for Little Ones!</p>
     </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#colors">Colors</a></li>
+            <li><a href="#numbers">Numbers</a></li>
+            <li><a href="#animals">Animals</a></li>
+            <li><a href="#shapes">Shapes</a></li>
+            <li><a href="#transportation">Transportation</a></li>
+            <li><a href="#clothing">Clothing</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
     <main>
+        <!-- Section: Colors -->
         <section id="colors">
             <h2>Learn Colors</h2>
-            <!-- Content for colors -->
+            <p>Explore and discover the rainbow of colors!</p>
+            <div class="interactive">
+                <button onclick="alert('Red!')">Click to learn Red</button>
+                <button onclick="alert('Blue!')">Click to learn Blue</button>
+                <!-- Add more interactive buttons or color animations here -->
+            </div>
         </section>
+
+        <!-- Section: Numbers -->
         <section id="numbers">
             <h2>Learn Numbers</h2>
-            <!-- Content for numbers -->
+            <p>Counting made easy with fun examples!</p>
+            <div class="interactive">
+                <button onclick="alert('1')">1</button>
+                <button onclick="alert('2')">2</button>
+                <!-- Add more number buttons with sounds or visuals -->
+            </div>
         </section>
+
+        <!-- Section: Animals -->
         <section id="animals">
             <h2>Learn Animals</h2>
-            <!-- Content for animals -->
+            <p>Meet your favorite animals!</p>
+            <div class="interactive">
+                <button onclick="alert('Lion!')">Lion</button>
+                <button onclick="alert('Elephant!')">Elephant</button>
+                <!-- Interactive animal sounds or images -->
+            </div>
         </section>
+
+        <!-- Section: Shapes -->
         <section id="shapes">
             <h2>Learn Shapes</h2>
-            <!-- Content for shapes -->
+            <p>Recognize and name different shapes.</p>
+            <div class="interactive">
+                <button onclick="alert('Circle!')">Circle</button>
+                <button onclick="alert('Square!')">Square</button>
+                <!-- More shape-related interactive buttons -->
+            </div>
+        </section>
+
+        <!-- Section: Transportation -->
+        <section id="transportation">
+            <h2>Learn Transportation</h2>
+            <p>Vehicles and how we get around!</p>
+            <div class="interactive">
+                <button onclick="alert('Car!')">Car</button>
+                <button onclick="alert('Bus!')">Bus</button>
+                <!-- More vehicle buttons with animations or sounds -->
+            </div>
+        </section>
+
+        <!-- Section: Clothing -->
+        <section id="clothing">
+            <h2>Learn Clothing</h2>
+            <p>What do we wear today?</p>
+            <div class="interactive">
+                <button onclick="alert('Hat!')">Hat</button>
+                <button onclick="alert('Shirt!')">Shirt</button>
+                <!-- More clothing items with visual feedback -->
+            </div>
         </section>
     </main>
+
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 Pre-K Learning. All Rights Reserved.</p>
+        <p>&copy; 2024 Pre-K Learning Fun. All Rights Reserved.</p>
+        <p>Designed with love for little learners!</p>
     </footer>
-    <button id="goTopButton">Go to Top</button>
-    <script src="script.js"></script>
+
+    <!-- External JS File -->
+    <script src="events.js"></script>
 </body>
 </html>
-
