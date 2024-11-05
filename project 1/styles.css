@@ -1,0 +1,133 @@
+/* General Styles for the Entire Page */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun, playful font for children */
+    background-color: #fef8e4; /* Light yellow background (soft for eyes) */
+    color: #333; /* Dark gray text for easy reading */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: pink; /* Vibrant orange background */
+    color:blue; /* White text */
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    border-bottom: 10px solid #ffcc00; /* Yellow border at the bottom */
+}
+
+header h1 {
+    font-size: 56px; /* Large, playful font for the title */
+    margin: 0;
+}
+
+header p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #ffcc00; /* Bright yellow background */
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff; /* White text */
+    font-size: 24px; /* Larger font for easy readability */
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    transition: background-color 0.3s ease; /* Smooth color change on hover */
+}
+
+nav a:hover {
+    background-color: #ff8c00; /* Change to orange on hover */
+    color: #fff; /* Keep text white on hover */
+}
+
+/* Main Content Area */
+main {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; /* Max width for larger screens */
+}
+
+/* Section Styling */
+section {
+    background-color: #ffffff; /* White background for each section */
+    border-radius: 15px;
+    padding: 40px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+section h2 {
+    font-size: 40px; /* Large title for each section */
+    color: #ff8c00; /* Orange color for section headers */
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 24px; /* Readable paragraph text */
+    color: #555; /* Medium gray for text */
+    margin-bottom: 20px;
+}
+
+/* Buttons for Interaction (e.g., Learning Modules) */
+button {
+    font-size: 24px;
+    padding: 15px 30px;
+    background-color: #ff8c00; /* Bright orange button */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    margin: 20px 10px; /* Space between buttons */
+}
+
+button:hover {
+    background-color: #ffcc00; /* Yellow button when hovered */
+}
+
+button:active {
+    background-color: #ffb84d; /* Lighter orange when clicked */
+}
+
+/* Footer Section */
+footer {
+    background-color: #ff8c00; /* Same orange as header and nav */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+footer p {
+    font-size: 18px; /* Smaller text for footer */
+    margin: 5px 0;
+}
+
+/* Image Styling for Visual Elements (e.g., Animals, Shapes) */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for images */
+    margin-bottom: 20px; /* Space below images */
+}
